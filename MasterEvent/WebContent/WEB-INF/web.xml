@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>MasterEvent</display-name>
+
+
+      <servlet>
+        <servlet-name>LoginProcess</servlet-name>
+        <servlet-class>com.master.servlets.LoginProcess</servlet-class>
+      
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>LoginProcess</servlet-name>
+        <url-pattern>/PageServ</url-pattern>
+    </servlet-mapping>
+
+      <servlet>
+        <servlet-name>FormProcessing</servlet-name>
+        <servlet-class>com.master.servlets.FormProcessing</servlet-class>
+      
+    </servlet>
+
+
+<servlet-mapping>
+        <servlet-name>FormProcessing</servlet-name>
+        <url-pattern>/PageEv</url-pattern>
+    </servlet-mapping>
+    
+          <servlet>
+        <servlet-name>HomePage</servlet-name>
+        <servlet-class>com.master.servlets.HomePage</servlet-class>
+      
+    </servlet>
+
+
+<servlet-mapping>
+        <servlet-name>HomePage</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+    
+
+
+
+</web-app>

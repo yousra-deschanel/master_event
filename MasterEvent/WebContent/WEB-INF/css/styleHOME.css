@@ -1,0 +1,147 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif ;
+    color: white
+}
+
+
+
+
+
+.btn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+
+}
+.main-nav{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+}
+
+.main-nav li{
+    padding: 0 1%;
+
+}
+
+.main-header{
+    background-color: #ffea75;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.name-large{
+    text-align: left;
+    margin: 40px;
+    font-size: 4em;
+    
+    color: grey;
+    margin: 4rem;
+    
+}
+.bio{
+    font-size: 2em;
+    font-weight: 100;
+    margin: 30px 60px;
+    color: rgb(201, 201, 201);
+    
+}
+
+.content-section{
+    background-color:rgba(0, 0, 0, 0.900);
+   
+    margin:0 auto;
+    padding: 0 1.5em;
+}
+.about-image{
+    float: left;
+    margin: 30px 60px;
+    border-radius: 50%;
+}
+.project-setup{
+    display: inline-flex;
+    
+
+}
+.main-footer{
+    background-color:rgba(0, 0, 0, 0.700);
+    padding: 30px 0;
+    
+
+}
+
+.footer-title{
+    margin-top: 0;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+.main-footer li{
+    display: inline;
+    padding: 20px;
+    
+}
+.main-footer ul{
+    flex-grow: 1;
+    text-align: center;
+
+}
+.rs{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+.main-header-contact{
+    padding-bottom: 2px;
+
+}
+.contact-title{
+    margin-top: 0;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+   
+}
+.inputs{
+    text-align: center;
+    
+}.table{
+    text-align: center;
+}
+
