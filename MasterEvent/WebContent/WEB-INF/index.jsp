@@ -15,15 +15,15 @@
                 <li><a href="/MasterEvent//Home">Home</a> </li>
                 <li> <a href="">About</a> </li>
                 <li><a href="">Event</a> </li>
-                <li><a href="">SignUp</a> </li>
-                <li><a href="/MasterEvent//PageServ">Sign in as service provider </a> </li>
-                <li><a href="/MasterEvent//PageServ">Sign in as end user</a> </li>
-  
+                <li><a href="/MasterEvent//SignUp">SignUp</a> </li>
+                <li><a href="/MasterEvent//Login">SignIn as client </a></li>
+  				<li><a href="/MasterEvent//Login">SignIn as provider</a></li>
             </ul>
         </nav>
 
-        <h1 class="name-large">M A S T E R E V E N T </h1>
-        <h3 class="bio"> DESCRIPTION<h3>
+        <h1 class="name-large">MasterEvent </h1>
+        <h2 class="bio"> ALL IN ONE PLACE, manage your event ,control everything from a single dashboard, offer your service
+        and collab with other services, easy contact for both providers and end users. </h2>
     </header>
     
             <section class="content-section ">
@@ -31,17 +31,37 @@
  		 <br>
         <br>
         <br>
-        <h3>Services:</h3>
+       
 		
 
         <div class="project-setup">
         
-        <ul ><h4 >Service invitees</h4> </ul>
-        <ul ><h4 >Service Financier </h4></ul>
-        <ul ><h4 >Services restauration </h4></ul>
-         <ul ><h4 >Service location</h4></ul>
-          <ul ><h4 >Service technology</h4></ul>
-           <ul ><h4 >Service marketing</h4></ul>
+        <ul> <div class="service-image"> <%@include file="/WEB-INF/img/list.svg"%></div>
+        <h4 >Registration Service</h4> </ul>
+        
+        <ul >
+         <div class="service-image"> <%@include file="/WEB-INF/img/card.svg"%></div>
+        <h4 >Finance Service  </h4></ul>
+        
+        <ul >
+         <div class="service-image"> <%@include file="/WEB-INF/img/food.svg"%></div>
+         <h4 >Restauration Services  </h4></ul>
+         <ul >
+          <div class="service-image"> <%@include file="/WEB-INF/img/map.svg"%></div>
+          <h4 >Location Service </h4></ul>
+          <ul >
+         </div>
+         
+         <div class="project-setup">
+         
+           <ul ><div class="service-image"> <%@include file="/WEB-INF/img/vid.svg"%></div>
+           <h4 >Technology Service </h4></ul>
+           <ul >
+            <div class="service-image"> <%@include file="/WEB-INF/img/marketing.svg"%></div>
+            <h4 >Marketing Service </h4></ul>
+             <ul >
+            <div class="service-image"> <%@include file="/WEB-INF/img/sponsor.svg"%></div>
+            <h4 >Sponsoring Service </h4></ul>
         </div>
         <br>
         <br>

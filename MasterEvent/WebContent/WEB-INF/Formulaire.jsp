@@ -14,6 +14,24 @@
 	
 </head>
 <body>
+<div class="sidenav">
+
+    <a href="/MasterEvent//PageEv">Event >creation </a>
+    <a href="/MasterEvent//PageEv">Event >informations </a>
+      <br><br>
+  <a href="/MasterEvent//Serv">Registration</a>
+  <a href="#clients">Finance</a>
+  <a href="#contact">Food</a>
+  <a href="#contact">Location</a>
+  <a href="#contact">Tech</a>
+  <a href="#contact">Marketing</a>
+  <a href="#contact">Sponsor</a>
+  <a href="#contact">OverView</a>
+</div>
+
+<div class="main">
+
+</div>
 
 <div class="wrapper">
     <div class="title">

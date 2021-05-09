@@ -2,10 +2,15 @@
 *{
     box-sizing: border-box;
     font-family: sans-serif ;
-    color: white
+   
+    background-color:#DEDEDE;
 }
 
-
+service-image{
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+}
 
 
 
@@ -70,19 +75,19 @@ html,body{
     font-size: 4em;
     
     color: grey;
-    margin: 4rem;
+    
     
 }
 .bio{
-    font-size: 2em;
+   
     font-weight: 100;
-    margin: 30px 60px;
-    color: rgb(201, 201, 201);
+    margin: 0px 60px;
+    color: black;
     
 }
 
 .content-section{
-    background-color:rgba(0, 0, 0, 0.900);
+    background-color:grey;
    
     margin:0 auto;
     padding: 0 1.5em;

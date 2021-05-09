@@ -18,7 +18,7 @@
 			<div > <%@include file="/WEB-INF/img/pic.svg"%></div>
 		</div>
 		<div class="login-content">
-			<form method="post" action="PageServ">
+			<form method="post" action="/MasterEvent/Client">
 				<h2>Sign In</h2>
            		<div class="input-div one">
            		   <div class="i">
@@ -26,7 +26,7 @@
            		   </div>
            		   <div class="div">
            		   		
-           		   		<input type="email" name="nom" class="input" placeholder="Email" required>
+           		   		<input type="email" name="email" class="input" placeholder="Email" required>
            		   </div>
            		</div>
            		<div class="input-div pass">
@@ -35,7 +35,7 @@
            		   </div>
            		   <div class="div">
            		    	
-           		    	<input type="password" name="prenom" class="input"  placeholder="Password" required>
+           		    	<input type="password" name="password" class="input"  placeholder="Password" required>
             	   </div>
             	</div>
             	

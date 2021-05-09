@@ -17,7 +17,7 @@
     <a href="/MasterEvent//PageEv">Event >creation </a>
     <a href="/MasterEvent//PageServ">Event >informations </a>
       <br><br>
-  <a href="#services">Registrants</a>
+  <a href="/MasterEvent//Serv">Registration</a>
   <a href="#clients">Finance</a>
   <a href="#contact">Food</a>
   <a href="#contact">Location</a>

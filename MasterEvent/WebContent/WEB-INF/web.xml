@@ -58,4 +58,14 @@
 </servlet-mapping>
 
 
+<servlet>
+	<servlet-name>Services</servlet-name>
+    <servlet-class>com.master.servlets.Services</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Services</servlet-name>
+	<url-pattern>/Serv</url-pattern>
+</servlet-mapping>
+
 </web-app>
