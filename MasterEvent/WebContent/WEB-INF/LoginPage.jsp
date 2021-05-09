@@ -8,8 +8,10 @@
 	<style><%@include file="/WEB-INF/css/style.css"%></style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body >
-
+<body >     
+             
+              
+               
 <div class="container">
 		<div class="img">
 		
@@ -17,7 +19,7 @@
 		</div>
 		<div class="login-content">
 			<form method="post" action="PageServ">
-				<h2>Welcome to MasterEvent</h2>
+				<h2>Sign In</h2>
            		<div class="input-div one">
            		   <div class="i">
            		   		<i class="fas fa-user"></i>
@@ -38,19 +40,11 @@
             	</div>
             	
             	<input type="submit" class="btn" value="Login">
+            	<a href="/MasterEvent//SignUp"><h3>New here ? create an account from here.</h3></a>
             </form>
             </div>
             </div>
-<!-- 
-<ul>
-<c:forEach var="utilisateur" items="${utilisateurs}">
-<li><c:out value="${utilisateur.nom}" />
-<c:out value="${utilisateur.prenom}" /></li> 
-
-</c:forEach>
-</ul>
-
- -->
+			
 
 </body>
 </html>

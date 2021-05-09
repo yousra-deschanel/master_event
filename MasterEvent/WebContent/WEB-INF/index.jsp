@@ -10,14 +10,18 @@
 </head>
 <body>
     <header class="main-header">
-        <nav class="nav main-nav">
+    	<nav class="nav main-nav">
             <ul>
-            
-                <li><a href="/MasterEvent//PageServ"><input type="submit" class="btn" value="connect as service provider"></a> </li>
-                <li> <a href="/MasterEvent//PageServ"><input type="submit" class="btn" value="connect as end user"></a> </li>
+                <li><a href="/MasterEvent//Home">Home</a> </li>
+                <li> <a href="">About</a> </li>
+                <li><a href="">Event</a> </li>
+                <li><a href="">SignUp</a> </li>
+                <li><a href="/MasterEvent//PageServ">Sign in as service provider </a> </li>
+                <li><a href="/MasterEvent//PageServ">Sign in as end user</a> </li>
+  
             </ul>
         </nav>
-        
+
         <h1 class="name-large">M A S T E R E V E N T </h1>
         <h3 class="bio"> DESCRIPTION<h3>
     </header>

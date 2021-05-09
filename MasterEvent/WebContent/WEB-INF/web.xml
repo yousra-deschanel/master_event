@@ -3,43 +3,59 @@
   <display-name>MasterEvent</display-name>
 
 
-      <servlet>
-        <servlet-name>LoginProcess</servlet-name>
-        <servlet-class>com.master.servlets.LoginProcess</servlet-class>
-      
-    </servlet>
-
-
-    <servlet-mapping>
-        <servlet-name>LoginProcess</servlet-name>
-        <url-pattern>/PageServ</url-pattern>
-    </servlet-mapping>
-
-      <servlet>
-        <servlet-name>FormProcessing</servlet-name>
-        <servlet-class>com.master.servlets.FormProcessing</servlet-class>
-      
-    </servlet>
-
+<servlet>
+	<servlet-name>LoginProcess</servlet-name>
+	<servlet-class>com.master.servlets.LoginProcess</servlet-class>
+</servlet>
 
 <servlet-mapping>
-        <servlet-name>FormProcessing</servlet-name>
-        <url-pattern>/PageEv</url-pattern>
-    </servlet-mapping>
-    
-          <servlet>
-        <servlet-name>HomePage</servlet-name>
-        <servlet-class>com.master.servlets.HomePage</servlet-class>
-      
-    </servlet>
+	<servlet-name>LoginProcess</servlet-name>
+	<url-pattern>/Login</url-pattern>
+</servlet-mapping>
 
+
+<servlet>
+    <servlet-name>FormProcessing</servlet-name>
+    <servlet-class>com.master.servlets.FormProcessing</servlet-class>
+</servlet>
 
 <servlet-mapping>
-        <servlet-name>HomePage</servlet-name>
-        <url-pattern>/Home</url-pattern>
-    </servlet-mapping>
+    <servlet-name>FormProcessing</servlet-name>
+	<url-pattern>/PageEv</url-pattern>
+</servlet-mapping>
     
+    
+<servlet>
+	<servlet-name>HomePage</servlet-name>
+    <servlet-class>com.master.servlets.HomePage</servlet-class>
+</servlet>
 
+<servlet-mapping>
+	<servlet-name>HomePage</servlet-name>
+	<url-pattern>/Home</url-pattern>
+</servlet-mapping>
+    
+    
+<servlet>
+	<servlet-name>ClientPanel</servlet-name>
+	<servlet-class>com.master.servlets.ClientPanel</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ClientPanel</servlet-name>
+	<url-pattern>/Client</url-pattern>
+</servlet-mapping>
+  
+    
+<servlet>
+	<servlet-name>SignUpProcess</servlet-name>
+    <servlet-class>com.master.servlets.SignUpProcess</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>SignUpProcess</servlet-name>
+	<url-pattern>/SignUp</url-pattern>
+</servlet-mapping>
 
 
 </web-app>
