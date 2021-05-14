@@ -1,18 +1,36 @@
 package com.master.beans;
 
 public class Utilisateur {
-	private String nom;
-	private String prenom ;
-	public String getNom() {
-		return nom;
+
+	private String email;
+	private String phone;
+	private String type;
+	private String password;
+	
+	public String getEmail() {
+		return email;
 	}
-	public void setNom(String nom) {
-		this.nom = nom;
+	public void setEmail(String email) {
+		this.email = email;
 	}
-	public String getPrenom() {
-		return prenom;
+	public String getPhone() {
+		return phone;
 	}
-	public void setPrenom(String prenom) {
-		this.prenom = prenom;
-}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
 }

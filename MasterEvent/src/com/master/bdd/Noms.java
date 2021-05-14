@@ -6,6 +6,7 @@ import com.master.beans.*;
 
 
 public class Noms {
+	/*
 	private Connection connexion ;
 	public Object recupererUtilisateurs() {
 		 List<Utilisateur> utilisateurs = new ArrayList<Utilisateur>();
@@ -95,5 +96,5 @@ public class Noms {
 			e.printStackTrace();
 		}
 	}
-
+*/	
 }

@@ -18,7 +18,7 @@
 			<div > <%@include file="/WEB-INF/img/reg.svg"%></div>
 		</div>
 		<div class="login-content">
-			<form method="post" action="PageServ">
+			<form method="post" action="SignUp">
 				<h2>Sign Up</h2>
            		<div class="input-div one">
            		   <div class="i">
@@ -26,7 +26,7 @@
            		   </div>
            		   <div class="div">
            		   		
-           		   		<input type="email" name="email" class="input" placeholder="Email" required>
+           		   		<input type="text" name="email" class="input" placeholder="Email" required>
            		   </div>
            		</div>
            		<div class="input-div pass">
@@ -35,7 +35,7 @@
            		   </div>
            		   <div class="div">
            		    	
-           		    	<input type="tel" name="phone" class="input"  placeholder="Phone" required>
+           		    	<input type="text" name="phone" class="input"  placeholder="Phone" required>
             	   </div>
             	</div>
             	 		<div class="input-div pass">

@@ -20,9 +20,11 @@ public class UtilisateurDaoImpl implements UtilisateurDoo {
 		
 		try {
 			connexion = dooFactory.getConnection();
-			preparedStatement  = connexion.prepareStatement("insert into noms(nom ,prenom) values(?, ?);");
-			preparedStatement.setString(1,utilisateur.getNom());
-			preparedStatement.setString(2,utilisateur.getPrenom());
+			preparedStatement  = connexion.prepareStatement("insert into users(id, email,phone , type, password) values(null, ?,? ,?,?);");
+			preparedStatement.setString(1,utilisateur.getEmail());
+			preparedStatement.setString(2,utilisateur.getPhone());
+			preparedStatement.setString(3,utilisateur.getType());
+			preparedStatement.setString(4,utilisateur.getPassword());
 		
 			preparedStatement.executeUpdate();
 		} catch (SQLException e) {
@@ -41,18 +43,21 @@ public class UtilisateurDaoImpl implements UtilisateurDoo {
 		ResultSet resultat = null;
 		
 		try {
-			connexion = DooFactory.getConnection();
+			connexion = dooFactory.getConnection();
 			statement = connexion.createStatement();
-			resultat = statement.executeQuery("SELECT nom,prenom FROM noms;");
+			resultat = statement.executeQuery("SELECT email, phone , type, password FROM users;");
 			
 			while(resultat.next()){
-	        	String nom = resultat.getString("nom");
-	        	String prenom = resultat.getString("prenom");
-	        	
+				String email = resultat.getString("email");
+	        	String phone = resultat.getString("phone");
+	        	String type = resultat.getString("type");
+	        	String password = resultat.getString("password");
 
 	        	Utilisateur utilisateur  = new Utilisateur ();
-	        	utilisateur.setNom(nom);
-	        	utilisateur.setPrenom(prenom);
+	        	utilisateur.setEmail(email);
+	        	utilisateur.setPhone(phone);
+	        	utilisateur.setEmail(type);
+	        	utilisateur.setPhone(password);
 	        	
 	        	
 	        	utilisateurs.add(utilisateur);

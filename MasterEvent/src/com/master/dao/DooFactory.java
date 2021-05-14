@@ -22,7 +22,7 @@ public class DooFactory {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		DooFactory instance = new DooFactory("jdbc:mysql://localhost:3306/javaee?useSSL=false&serverTimezone=UTC", "root","password");
+		DooFactory instance = new DooFactory("jdbc:mysql://localhost:3306/Login?useSSL=false&serverTimezone=UTC", "root","password");
 		return instance;
 	}
 
@@ -35,3 +35,4 @@ public class DooFactory {
 	}
 
 }
+
