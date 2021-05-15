@@ -4,13 +4,13 @@
 
 
 <servlet>
-	<servlet-name>LoginProcess</servlet-name>
-	<servlet-class>com.master.servlets.LoginProcess</servlet-class>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>com.master.servlets.Login</servlet-class>
 </servlet>
 
 <servlet-mapping>
-	<servlet-name>LoginProcess</servlet-name>
-	<url-pattern>/Login</url-pattern>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/Log</url-pattern>
 </servlet-mapping>
 
 
@@ -68,4 +68,31 @@
 	<url-pattern>/Serv</url-pattern>
 </servlet-mapping>
 
+<servlet>
+	<servlet-name>LoginController</servlet-name>
+    <servlet-class>net.javaguides.todoapp.web.LoginController </servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name> LoginController</servlet-name>
+	<url-pattern>/LoginController</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>TodoController</servlet-name>
+    <servlet-class>net.javaguides.todoapp.web.TodoController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>TodoController</servlet-name>
+	<url-pattern>/TodoController</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>UserController</servlet-name>
+    <servlet-class>net.javaguides.todoapp.web.UserController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UserController</servlet-name>
+	<url-pattern>/UserController</url-pattern>
+</servlet-mapping>
 </web-app>

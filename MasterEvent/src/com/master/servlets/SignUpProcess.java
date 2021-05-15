@@ -1,3 +1,4 @@
+
 package com.master.servlets;
 
 import java.io.IOException;
@@ -41,9 +42,9 @@ public class SignUpProcess extends HttpServlet {
 		utilisateur.setPassword(request.getParameter("password"));
 		/*
 		Users tableNoms = new Users();
-		tableNoms.ajouterUtilisateur(utilisateur);*/
+		tableNoms.ajouterUtilisateur(utilisateur);
 		utilisateurDoo.ajouter(utilisateur);
-		
+		*/
 		
 		
 		request.setAttribute("utilisateurs", utilisateurDoo.lister());

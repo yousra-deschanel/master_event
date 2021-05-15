@@ -1,3 +1,4 @@
+
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -6,10 +7,20 @@
 <head>
 	<title>MasterEvent | Login </title>
 	<style><%@include file="/WEB-INF/css/style.css"%></style>
+	   <style><%@include file="/WEB-INF/css/styleHOME.css"%></style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body >     
-             
+                 	<nav class="nav main-nav">
+            <ul>
+                <li><a href="/MasterEvent//Home">Home</a> </li>
+                <li> <a href="">About</a> </li>
+                <li><a href="">Event</a> </li>
+                <li><a href="/MasterEvent//SignUp">SignUp</a> </li>
+                <li><a href="/MasterEvent//Login">SignIn as client </a></li>
+  				<li><a href="/MasterEvent//Login">SignIn as provider</a></li>
+            </ul>
+        </nav>
               
                
 <div class="container">
@@ -18,7 +29,12 @@
 			<div > <%@include file="/WEB-INF/img/pic.svg"%></div>
 		</div>
 		<div class="login-content">
-			<form method="post" action="/MasterEvent/Client">
+				<div class="col-md-6 col-md-offset-3">
+                <div class="alert alert-success center" role="alert">
+                    <p>${NOTIFICATION}</p>
+                </div>
+		
+			<form action="<%=request.getContextPath()%>/login" method="post">
 				<h2>Sign In</h2>
            		<div class="input-div one">
            		   <div class="i">
@@ -45,6 +61,5 @@
             </div>
             </div>
 			
-
 </body>
 </html>
