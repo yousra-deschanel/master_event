@@ -16,7 +16,7 @@
                 <li><a href="/MasterEvent//Home">Home</a> </li>
                 <li> <a href="">About</a> </li>
                 <li><a href="">Event</a> </li>
-                <li><a href="/MasterEvent//SignUp">SignUp</a> </li>
+                <li><a href="/MasterEvent/Register">SignUp</a> </li>
                 <li><a href="/MasterEvent//Login">SignIn as client </a></li>
   				<li><a href="/MasterEvent//Login">SignIn as provider</a></li>
             </ul>

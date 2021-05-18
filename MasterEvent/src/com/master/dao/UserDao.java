@@ -1,11 +1,11 @@
-package net.javaguides.todoapp.dao;
+package com.master.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import net.javaguides.todoapp.model.User;
-import net.javaguides.todoapp.utils.JDBCUtils;
+import com.master.beans.User;
+import com.master.bdd.JDBCUtils;
 
 public class UserDao {
 

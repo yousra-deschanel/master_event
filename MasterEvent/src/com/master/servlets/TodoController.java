@@ -1,4 +1,4 @@
-package net.javaguides.todoapp.web;
+package com.master.servlets;
 
 
 import java.io.IOException;
@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import net.javaguides.todoapp.dao.EventDao;
-import net.javaguides.todoapp.dao.EventDaoImpl;
-import net.javaguides.todoapp.model.Event;
+import com.master.dao.EventDao;
+import com.master.dao.EventDaoImpl;
+import com.master.beans.Event;
 
 
 

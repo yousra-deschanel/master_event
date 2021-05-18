@@ -17,7 +17,7 @@
 
 <div class="sidenav">
 
-    <a href="/MasterEvent//PageEv">Event >creation </a>
+    <a href="<%=request.getContextPath()%>/new">Event >creation </a>
     <a   href="<%=request.getContextPath()%>/list">Event >informations </a>
       <br><br>
   <a href="/MasterEvent//Serv">Registration</a>
@@ -27,7 +27,7 @@
   <a href="#contact">Tech</a>
   <a href="#contact">Marketing</a>
   <a href="#contact">Sponsor</a>
-  <a href="#contact">OverView</a>
+  <a href="/MasterEvent/Ov">OverView</a>
 </div>
 
 

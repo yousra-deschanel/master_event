@@ -4,25 +4,21 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style><%@include file="/WEB-INF/css/client.css"%></style>
    <style><%@include file="/WEB-INF/css/styleHOME.css"%></style>
-<title>MasterEvent | Client Panel </title>
+   <style>
+table {
+  width: 75%;
+  margin-left:100 px;
+  position: right;
+  float: right;
+}
+table, th, td {
+  border: 1px solid black;
+}</style>
+<title>Event | OverView</title>
 </head>
 <body>
-    	<nav class="nav main-nav">
-            <ul>
-                <li><a href="/MasterEvent//Home">Home</a> </li>
-                <li> <a href="">About</a> </li>
-                <li><a href="">Event</a> </li>
-                <li><a href="/MasterEvent//Register">SignUp</a> </li>
-                <li><a href="/MasterEvent//Login">SignIn as client </a></li>
-  				<li><a href="/MasterEvent//Login">SignIn as provider</a></li>
-            </ul>
-        </nav>
-
-
-
 <div class="sidenav">
 
     <a href="<%=request.getContextPath()%>/new">Event >creation </a>
@@ -37,11 +33,26 @@
   <a href="#contact">Sponsor</a>
   <a href="/MasterEvent/Ov">OverView</a>
 </div>
+<div class="rightside">
+<table>
+<thead>
+		<tr>
+			<th>Registration</th>
+			<th>Finance</th>
+			<th>Food</th>
+			<th>Location</th>
+			<th>Marketing</th>
+			<th>Sponsor</th>
+			<th>OverView</th>
+		</tr>
+</thead>
+<tbody>
 
-<div class="main">
+
+
+</tbody>
+</table>					
 
 </div>
-   
-
 </body>
 </html>

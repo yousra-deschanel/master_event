@@ -1,4 +1,4 @@
-package net.javaguides.todoapp.dao;
+package com.master.dao;
 
 
 import java.sql.Connection;
@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.javaguides.todoapp.model.Event;
-import net.javaguides.todoapp.utils.JDBCUtils;
+import com.master.beans.Event;
+import com.master.bdd.JDBCUtils;
 
 
 

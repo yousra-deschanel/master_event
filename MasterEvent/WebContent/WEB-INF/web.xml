@@ -70,7 +70,7 @@
 
 <servlet>
 	<servlet-name>LoginController</servlet-name>
-    <servlet-class>net.javaguides.todoapp.web.LoginController </servlet-class>
+    <servlet-class>com.master.servlets.LoginController </servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -79,7 +79,7 @@
 </servlet-mapping>
 <servlet>
 	<servlet-name>TodoController</servlet-name>
-    <servlet-class>net.javaguides.todoapp.web.TodoController</servlet-class>
+    <servlet-class>com.master.servlets.TodoController</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -88,11 +88,41 @@
 </servlet-mapping>
 <servlet>
 	<servlet-name>UserController</servlet-name>
-    <servlet-class>net.javaguides.todoapp.web.UserController</servlet-class>
+    <servlet-class>com.master.servlets.UserController</servlet-class>
 </servlet>
 
 <servlet-mapping>
 	<servlet-name>UserController</servlet-name>
 	<url-pattern>/UserController</url-pattern>
 </servlet-mapping>
+<servlet>
+	<servlet-name>Register</servlet-name>
+    <servlet-class>com.master.servlets.Register</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Register</servlet-name>
+	<url-pattern>/Reg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>OverView</servlet-name>
+    <servlet-class>com.master.servlets.OverView</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>OverView</servlet-name>
+	<url-pattern>/Ov</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>finance</servlet-name>
+    <servlet-class>com.master.servlets.finance</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>finance</servlet-name>
+	<url-pattern>/fnc</url-pattern>
+</servlet-mapping>
+
 </web-app>

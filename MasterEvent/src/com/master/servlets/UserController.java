@@ -1,4 +1,4 @@
-package net.javaguides.todoapp.web;
+package com.master.servlets;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.WebServlet;
-import net.javaguides.todoapp.dao.UserDao;
-import net.javaguides.todoapp.model.User;
+import com.master.dao.UserDao;
+import com.master.beans.User;
 
 
 

@@ -1,8 +1,8 @@
-package net.javaguides.todoapp.dao;
+package com.master.dao;
 
 import java.sql.SQLException;
 import java.util.List;
-import net.javaguides.todoapp.model.Event;
+import com.master.beans.Event;
 
 
 public interface EventDao {

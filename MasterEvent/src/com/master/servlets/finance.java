@@ -7,23 +7,32 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
- 
-@WebServlet("/Login")
-public class Login extends HttpServlet {
+/**
+ * Servlet implementation class finance
+ */
+@WebServlet("/finance")
+public class finance extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-  
-    public Login() {
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public finance() {
         super();
-       
+        // TODO Auto-generated constructor stub
     }
 
- 
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		this.getServletContext().getRequestDispatcher("/WEB-INF/LoginPage.jsp").forward(request, response);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/Finanace.jsp").forward(request, response);
+
 	}
 
- 
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 	}
