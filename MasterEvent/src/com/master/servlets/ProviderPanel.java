@@ -8,23 +8,24 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/ClientPanel")
-public class ClientPanel extends HttpServlet {
+@WebServlet("/ProviderPanel")
+public class ProviderPanel extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-
-    public ClientPanel() {
+ 
+    public ProviderPanel() {
         super();
-
+        
     }
 
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		this.getServletContext().getRequestDispatcher("/WEB-INF/ClientPanel.jsp").forward(request, response);
-	}
+		this.getServletContext().getRequestDispatcher("/WEB-INF/ProviderDashBoard.jsp").forward(request, response);
+		}
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		 
 	}
 
 }

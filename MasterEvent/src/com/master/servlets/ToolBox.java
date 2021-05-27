@@ -7,24 +7,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
-@WebServlet("/ClientPanel")
-public class ClientPanel extends HttpServlet {
+ 
+@WebServlet("/ToolBox")
+public class ToolBox extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-
-    public ClientPanel() {
+ 
+    public ToolBox() {
         super();
-
+        
     }
-
+ 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		this.getServletContext().getRequestDispatcher("/WEB-INF/ClientPanel.jsp").forward(request, response);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/ToolBox.jsp").forward(request, response);
 	}
-
-
+ 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+
 	}
 
 }

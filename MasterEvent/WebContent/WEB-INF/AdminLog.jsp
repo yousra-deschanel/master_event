@@ -16,26 +16,22 @@
                 <li><a href="/MasterEvent//Home">Home</a> </li>
                 <li> <a href="">About</a> </li>
                 <li><a href="">Event</a> </li>
-                <li><a href="/MasterEvent/Register">SignUp</a> </li>
-                <li><a href="/MasterEvent//Login">SignIn as client </a></li>
-  				<li><a href="/MasterEvent//Login">SignIn as provider</a></li>
+             
             </ul>
         </nav>
               
                
 <div class="container">
-		<div class="img">
+	<div class="img">
 		
-			<div > <%@include file="/WEB-INF/img/pic.svg"%></div>
+			<div > <%@include file="/WEB-INF/img/admin.svg"%></div>
 		</div>
 		<div class="login-content">
 				<div class="col-md-6 col-md-offset-3">
-                <div class="alert alert-success center" role="alert">
-                    <p>${NOTIFICATION}</p>
-                </div>
+             
 		
-			<form action="<%=request.getContextPath()%>/login" method="post">
-				<h3 >Welcome Back Dear Client !</h3>
+			<form action="<%=request.getContextPath()%>/AdminPanel" method="post">
+				<h3 >Admin LogIn </h3>
 				<br ><br ><br >
            		<div class="input-div one">
            		   <div class="i">
@@ -57,10 +53,10 @@
             	</div>
             	
             	<input type="submit" class="btn" value="Login">
-            	<a href="/MasterEvent/Register"><h3>New here ? create an account from here.</h3></a>
+    
             </form>
             </div>
             </div>
-		</div>	
+		  </div>	
 </body>
 </html>

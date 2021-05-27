@@ -17,7 +17,8 @@
                 <li><a href="">Event</a> </li>
                 <li><a href="/MasterEvent/Register">SignUp</a> </li>
                 <li><a href="/MasterEvent//Login">SignIn as client </a></li>
-  				<li><a href="/MasterEvent//Login">SignIn as provider</a></li>
+  				<li><a href="/MasterEvent//ProviderLogin">SignIn as provider</a></li>
+  				<li><a href="/MasterEvent//Administrator">Admin Panel</a></li>
             </ul>
         </nav>
 

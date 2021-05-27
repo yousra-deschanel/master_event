@@ -23,7 +23,16 @@
     <servlet-name>FormProcessing</servlet-name>
 	<url-pattern>/PageEv</url-pattern>
 </servlet-mapping>
-    
+
+<servlet>
+    <servlet-name>ImgTopdfController</servlet-name>
+    <servlet-class>com.master.servlets.ImgTopdfController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ImgTopdfController</servlet-name>
+	<url-pattern>/ImgTopdfTool</url-pattern>
+</servlet-mapping>
     
 <servlet>
 	<servlet-name>HomePage</servlet-name>
@@ -125,4 +134,73 @@
 	<url-pattern>/fnc</url-pattern>
 </servlet-mapping>
 
+<servlet>
+	<servlet-name>ProviderPanel</servlet-name>
+    <servlet-class>com.master.servlets.ProviderPanel</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ProviderPanel</servlet-name>
+	<url-pattern>/Provider</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AdminPanel</servlet-name>
+    <servlet-class>com.master.servlets.AdminPanel</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminPanel</servlet-name>
+	<url-pattern>/Administrator</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ServiceForm</servlet-name>
+    <servlet-class>com.master.servlets.ServiceForm</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ServiceForm</servlet-name>
+	<url-pattern>/SForm</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ToolBox</servlet-name>
+    <servlet-class>com.master.servlets.ToolBox</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ToolBox</servlet-name>
+	<url-pattern>/TBox</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ProviderLoginController</servlet-name>
+    <servlet-class>com.master.servlets.ProviderLoginController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ProviderLoginController</servlet-name>
+	<url-pattern>/ProviderLogin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>JsonToXmlController</servlet-name>
+    <servlet-class>com.master.servlets.JsonToXmlController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>JsonToXmlController</servlet-name>
+	<url-pattern>/JsonToXml</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>BDToCSVController</servlet-name>
+    <servlet-class>com.master.servlets.BDToCSVController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>BDToCSVController</servlet-name>
+	<url-pattern>/BDToCSV</url-pattern>
+</servlet-mapping>
 </web-app>

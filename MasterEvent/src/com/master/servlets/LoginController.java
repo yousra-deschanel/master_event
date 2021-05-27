@@ -48,7 +48,7 @@ public class LoginController extends HttpServlet {
 				RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/eventsList.jsp");
 				dispatcher.forward(request, response);
 			} else {
-				response.getWriter().append("invalid email or password").append(request.getContextPath());
+				response.getWriter().append("invalid email or password for a client").append(request.getContextPath());
 				
 				
 			}

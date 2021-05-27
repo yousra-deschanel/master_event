@@ -34,9 +34,9 @@
                     <p>${NOTIFICATION}</p>
                 </div>
 		
-			<form action="<%=request.getContextPath()%>/login" method="post">
-				<h3 >Welcome Back Dear Client !</h3>
-				<br ><br ><br >
+			<form action="<%=request.getContextPath()%>/ProviderLoginController" method="post">
+				<h3>Provider log in </h3>
+				<br><br><br>
            		<div class="input-div one">
            		   <div class="i">
            		   		<i class="fas fa-user"></i>
@@ -61,6 +61,6 @@
             </form>
             </div>
             </div>
-		</div>	
+			
 </body>
 </html>
