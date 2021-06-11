@@ -34,7 +34,7 @@
                     <p>${NOTIFICATION}</p>
                 </div>
 		
-			<form action="<%=request.getContextPath()%>/login" method="post">
+			<form action="<%=request.getContextPath()%>/list" method="post">
 				<h3 >Welcome Back Dear Client !</h3>
 				<br ><br ><br >
            		<div class="input-div one">

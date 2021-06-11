@@ -3,67 +3,58 @@ package com.master.beans;
 public class Service {
 	private int  service_id;
 	private String service_name ;
-	private String main_company ;
 	private String domain ;
-	private String more_infos ;
-	private String number_of_inputs ;
+	private String input_type ;
+	private long number_of_inputs ;
 	private String inputs ;
-	private String number_of_outputs ;
+	private String output_type ;
+	private long number_of_outputs ;
 	private String outputs ;
 	
 	protected Service() {
 		
 	}
-	public Service( int  service_id, String service_name ,String main_company ,String domain ,String more_infos , String number_of_inputs ,
-			String inputs ,String number_of_outputs ,String outputs) {
+	
+	public Service( int  service_id, String service_name ,String domain, String input_type, long number_of_inputs ,
+			String inputs ,  String output_type ,long number_of_outputs ,String outputs) {
 		super();
 		this.service_id = service_id;
 		this.service_name  = service_name ;
-		this.main_company = main_company ;
 		this.domain = domain;
-		this.more_infos   = more_infos ;
+		this.input_type = input_type;
 		this.number_of_inputs = number_of_inputs;
 		this.inputs = inputs;
 		this.number_of_outputs = number_of_outputs;
 		this.outputs = outputs;
+		this.output_type  = output_type ;
 	}
 	
-	public Service( String service_name ,String main_company ,String domain ,String more_infos , String number_of_inputs ,
-			String inputs ,String number_of_outputs ,String outputs) {
+	public Service( String service_name ,String domain, String input_type, long number_of_inputs ,
+			String inputs ,  String output_type ,long number_of_outputs ,String outputs) {
 		super();
 		this.service_name  = service_name ;
-		this.main_company = main_company ;
 		this.domain = domain;
-		this.more_infos   = more_infos ;
+		this.input_type = input_type;
 		this.number_of_inputs = number_of_inputs;
 		this.inputs = inputs;
 		this.number_of_outputs = number_of_outputs;
 		this.outputs = outputs;
+		this.output_type  = output_type ;
 	}
 	
 
-	public String getMain_company() {
-		return main_company;
-	}
-	public void setMain_company(String main_company) {
-		this.main_company = main_company;
-	}
+
 	public String getDomain() {
 		return domain;
 	}
 	public void setDomain(String domain) {
 		this.domain = domain;
 	}
-	public String getMore_infos() {
-		return more_infos;
-	}
-	public void setMore_infos(String more_infos) {
-		this.more_infos = more_infos;
-	}
-	public String getNumber_of_inputs() {
+
+	public long getNumber_of_inputs() {
 		return number_of_inputs;
 	}
-	public void setNumber_of_inputs(String number_of_inputs) {
+	public void setNumber_of_inputs(long number_of_inputs) {
 		this.number_of_inputs = number_of_inputs;
 	}
 	public String getInputs() {
@@ -72,10 +63,10 @@ public class Service {
 	public void setInputs(String inputs) {
 		this.inputs = inputs;
 	}
-	public String getNumber_of_outputs() {
+	public long getNumber_of_outputs() {
 		return number_of_outputs;
 	}
-	public void setNumber_of_outputs(String number_of_outputs) {
+	public void setNumber_of_outputs(long number_of_outputs) {
 		this.number_of_outputs = number_of_outputs;
 	}
 	public String getOutputs() {
@@ -95,6 +86,18 @@ public class Service {
 	}
 	public void setService_name(String service_name) {
 		this.service_name = service_name;
+	}
+	public String getInput_type() {
+		return input_type;
+	}
+	public void setInput_type(String input_type) {
+		this.input_type = input_type;
+	}
+	public String getOutput_type() {
+		return output_type;
+	}
+	public void setOutput_type(String output_type) {
+		this.output_type = output_type;
 	}
 	
 

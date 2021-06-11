@@ -55,20 +55,14 @@
   <h1>Service Form</h1>
   <br>
   <div class="form-input-material">
-  <label for="username">Service Name</label>
-    <input type="text" name="username" id="username" placeholder=" " autocomplete="off" class="form-control-material" required />
+  <label  >Service Name</label>
+    <input type="text" name="service_name"  autocomplete="off" class="form-control-material" required />
     
   </div>
   <br>
   <div class="form-input-material">
-     <label for="password">Main Company</label>
-    <input type="text" name="password" id="password" placeholder=" " autocomplete="off" class="form-control-material" required />
- 
-  </div>
-  <br>
-  <div class="form-input-material">
           <label>Domain</label>
-          <select  class="form-control-material" required>
+          <select  class="form-control-material" name="domain" required>
           <option value="" disabled selected ></option>
             <option >Registration</option>
             <option >Finance</option>
@@ -79,34 +73,43 @@
 	     	<option>Sponsor</option>
           </select>
         </div>
-        <br> 
-    <div class="form-input-material">
-    <label for="password">More infos</label>
-    <textarea name="description" class="form-control-material" required></textarea>
+          <br>
+          <div class="form-input-material">
+  <label >Input Type </label>
+    <input type="text" name="input_type "  autocomplete="off" class="form-control-material" required />
     
   </div>
+
+
   <br> 
     <div class="form-input-material">
-     <label for="password">number of inputs</label>
-    <input type="number" name="password" id="password" placeholder=" " autocomplete="off" class="form-control-material" required />
+     <label  >number of inputs</label>
+    <input type="number" name="number_of_inputs "  autocomplete="off" class="form-control-material" required />
    
   </div>
   <br>
        <div class="input_fields_wrap">
     <button class="add_field_button">Add input</button>
-    <div><input type="text" name="mytext[]"></div>
+    <div><input type="text" name="inputs"></div>
 	
      </div>
      <br> 
+            
+          <div class="form-input-material">
+  <label >Output Type </label>
+    <input type="text" name="output_type "  autocomplete="off" class="form-control-material" required />
+    
+  </div>
+     <br>
     <div class="form-input-material">
        <label for="password">number of outputs</label>
-    <input type="number" name="password" id="password" placeholder=" " autocomplete="off" class="form-control-material" required />
+    <input type="number" name="number_of_outputs"  autocomplete="off" class="form-control-material" required />
  
   </div>
   <br> 
        <div class="input_fields_wrap">
     <button class="add_field_button">Add output</button>
-    <div><input type="text" name="mytext[]"></div>
+    <div><input type="text" name="outputs"></div>
 	
      </div>
      <br>
@@ -152,11 +155,10 @@
           </div>
         </div>
       </div>
-    </div>
 
 
 
 
-</div>
+
   </body>
 </html>

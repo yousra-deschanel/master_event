@@ -185,9 +185,10 @@
             <a href="/MasterEvent/TBox">ToolBox</a>
           </div>
           <div class="sidebar__link">
-            <i class="fa fa-handshake-o"></i>
-            <a href="#">Contracts</a>
+            <i class="fa fa-files-o"></i>
+            <a href="#">WordNet Interface</a>
           </div>
+        
           <h2>LEAVE</h2>
           <div class="sidebar__link">
             <i class="fa fa-question"></i>
@@ -201,10 +202,11 @@
             <i class="fa fa-calendar-check-o"></i>
             <a href="#">Special Days</a>
           </div>
-          <div class="sidebar__link">
-            <i class="fa fa-files-o"></i>
-            <a href="#">Apply for leave</a>
+            <div class="sidebar__link">
+            <i class="fa fa-handshake-o"></i>
+            <a href="#">Contracts</a>
           </div>
+          
           <h2>PAYROLL</h2>
           <div class="sidebar__link">
             <i class="fa fa-money"></i>
